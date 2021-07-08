@@ -1,0 +1,33 @@
+{
+    "name": "gazin/pagination",
+    "type": "library",
+    "license": "MIT",
+    "description": "lib para pagina\u0000\u0000o",
+    "authors": [
+        {
+            "name": "Eduardo Conti",
+            "email": "eduardo.conti@gazin.com.br"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "DoctrinePagination\\": "Pagination/src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "DoctrinePagination\\tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.1"
+    },
+    "require": {
+        "doctrine/orm": "^2.9",
+        "php": "^7.3.6",
+        "psr/http-message": "^1.0",
+        "psr/http-client": "^1.0",
+        "psr/http-server-middleware": "^1.0",
+        "psr/http-server-handler": "^1.0"
+    }
+}
