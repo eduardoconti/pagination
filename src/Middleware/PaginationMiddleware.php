@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace DoctrinePagination\Middleware;
 
+use DoctrinePagination\DTO\Params;
 use Laminas\ServiceManager\ServiceManager;
 use Psr\Container\ContainerInterface;
 use Throwable;
@@ -12,7 +13,7 @@ use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Server\MiddlewareInterface;
 use Psr\Http\Message\ServerRequestInterface;
 use Psr\Http\Server\RequestHandlerInterface;
-use DTO\Params;
+
 
 class PaginationMiddleware implements MiddlewareInterface
 {

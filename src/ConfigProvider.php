@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace DoctrinePagination\Pagination;
+namespace DoctrinePagination;
 
 use DoctrinePagination\Middleware\PaginationMiddleware;
 use DoctrinePagination\Middleware\PaginationMiddlewareFactory;
