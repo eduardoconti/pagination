@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Pagination\Middleware;
+namespace DoctrinePagination\Middleware;
 
 use Laminas\ServiceManager\ServiceManager;
 use Psr\Container\ContainerInterface;
@@ -12,7 +12,7 @@ use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Server\MiddlewareInterface;
 use Psr\Http\Message\ServerRequestInterface;
 use Psr\Http\Server\RequestHandlerInterface;
-use Pagination\DTO\Params;
+use DTO\Params;
 
 class PaginationMiddleware implements MiddlewareInterface
 {

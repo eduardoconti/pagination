@@ -1,8 +1,8 @@
 <?php
 
-namespace Pagination\ORM;
+namespace DoctrinePagination\ORM;
 
-use Pagination\Collection\PaginatedArrayCollection;
+use DoctrinePagination\Collection\PaginatedArrayCollection;
 
 trait PaginatedRepositoryFindByTrait
 {

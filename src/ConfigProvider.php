@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Pagination;
+namespace DoctrinePagination\Pagination;
 
-use Pagination\Middleware\PaginationMiddleware;
-use Pagination\Middleware\PaginationMiddlewareFactory;
+use DoctrinePagination\Middleware\PaginationMiddleware;
+use DoctrinePagination\Middleware\PaginationMiddlewareFactory;
 
 class ConfigProvider
 {

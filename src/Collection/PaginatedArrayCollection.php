@@ -1,10 +1,10 @@
 <?php
 declare(strict_types=1);
 
-namespace Pagination\Collection;
+namespace DoctrinePagination\Collection;
 
 use Doctrine\Common\Collections\ArrayCollection;
-use Shared\Utils\Pagination\DTO\ResponseParams;
+use Shared\Utils\DTO\ResponseParams;
 
 class PaginatedArrayCollection
 {

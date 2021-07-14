@@ -1,11 +1,11 @@
 <?php
 
-namespace Pagination\ORM;
+namespace DoctrinePagination\ORM;
 
 use Doctrine\ORM\AbstractQuery;
 use Doctrine\Persistence\ObjectRepository;
-use Pagination\Collection\PaginatedArrayCollection;
-use Pagination\DTO\Params;
+use DoctrinePagination\Collection\PaginatedArrayCollection;
+use DoctrinePagination\DTO\Params;
 
 interface PaginatedRepositoryInterface extends ObjectRepository
 {

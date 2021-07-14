@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Pagination\DTO;
+namespace DoctrinePagination\DTO;
 
 use Doctrine\ORM\AbstractQuery;
 

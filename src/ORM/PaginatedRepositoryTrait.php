@@ -1,13 +1,13 @@
 <?php
 
-namespace Pagination\ORM;
+namespace DoctrinePagination\ORM;
 
 use Doctrine\ORM\AbstractQuery;
 use Doctrine\ORM\NonUniqueResultException;
 use Doctrine\ORM\NoResultException;
 use Doctrine\ORM\Query\ResultSetMappingBuilder;
-use Pagination\Collection\PaginatedArrayCollection;
-use Pagination\DTO\Params;
+use DoctrinePagination\Collection\PaginatedArrayCollection;
+use DoctrinePagination\DTO\Params;
 
 trait PaginatedRepositoryTrait
 {

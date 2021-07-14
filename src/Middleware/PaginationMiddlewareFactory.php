@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Pagination\Middleware;
+namespace DoctrinePagination\Middleware;
 
 use Psr\Container\ContainerInterface;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Pagination\ORM;
+namespace DoctrinePagination\ORM;
 
 use Doctrine\ORM\EntityRepository;
 

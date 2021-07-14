@@ -11,12 +11,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "DoctrinePagination\\": "Pagination/src/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "DoctrinePagination\\tests\\": "tests/"
+            "DoctrinePagination\\": "src/"
         }
     },
     "require-dev": {
